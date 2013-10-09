@@ -19,8 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSharpSQLite", "GSharpSQLit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPrint", "GPrint\GPrint.csproj", "{2F333553-A452-4564-A725-7E1EDFFF259A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gpn", "gpn\gpn.csproj", "{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "md5sums", "md5sums\md5sums.csproj", "{3D833763-960E-4755-90BD-6A516B222A59}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "touch", "touch\touch.csproj", "{65F27639-AF1D-4F57-93C4-3C895019A7F7}"
@@ -132,16 +130,6 @@ Global
 		{2F333553-A452-4564-A725-7E1EDFFF259A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{2F333553-A452-4564-A725-7E1EDFFF259A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{2F333553-A452-4564-A725-7E1EDFFF259A}.Release|x86.ActiveCfg = Release|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Release|x86.ActiveCfg = Release|Any CPU
 		{3D833763-960E-4755-90BD-6A516B222A59}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{3D833763-960E-4755-90BD-6A516B222A59}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{3D833763-960E-4755-90BD-6A516B222A59}.Debug|Mixed Platforms.Build.0 = Debug|x86
