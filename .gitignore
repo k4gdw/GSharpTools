@@ -9,7 +9,7 @@
 *resharper.user
 Sync*.dat
 [Bb]in/
-[Cc]ode[Dd]rop/
+[Cc]ode[_][Dd]rop/
 [Oo]bj/
 _ReSharper.*/
 *.scc
