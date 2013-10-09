@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLLUsage", "DLLUsage\DLLUsage.csproj", "{35D532EC-E27E-41B9-A87C-654C8573CD4B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSharpTools", "GSharpTools\GSharpTools.csproj", "{7D2D807B-9611-40F9-9B6D-72FE7BDD46AA}"
@@ -18,8 +18,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSharpSQLite", "GSharpSQLite\GSharpSQLite.csproj", "{8805870A-EA6B-4166-923E-D510316CE5A8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPrint", "GPrint\GPrint.csproj", "{2F333553-A452-4564-A725-7E1EDFFF259A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gpn", "gpn\gpn.csproj", "{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "md5sums", "md5sums\md5sums.csproj", "{3D833763-960E-4755-90BD-6A516B222A59}"
 EndProject
@@ -127,16 +125,6 @@ Global
 		{2F333553-A452-4564-A725-7E1EDFFF259A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{2F333553-A452-4564-A725-7E1EDFFF259A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{2F333553-A452-4564-A725-7E1EDFFF259A}.Release|x86.ActiveCfg = Release|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{89551698-CEB2-4EAC-A1EC-DADCFF223A4D}.Release|x86.ActiveCfg = Release|Any CPU
 		{3D833763-960E-4755-90BD-6A516B222A59}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{3D833763-960E-4755-90BD-6A516B222A59}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{3D833763-960E-4755-90BD-6A516B222A59}.Debug|Mixed Platforms.Build.0 = Debug|x86
