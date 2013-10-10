@@ -53,7 +53,7 @@ namespace DetectDuplicates {
 		}
 
 		/// <summary>
-		/// Calculates the MD5.
+		/// Calculates the MD5 hash of the specified file.
 		/// </summary>
 		/// <param name="filename">The filename.</param>
 		/// <returns>System.String.</returns>
@@ -77,6 +77,11 @@ namespace DetectDuplicates {
 					}
 				}
 				catch (IOException e) {
+					// This exception is thrown by the FileStream object if it is used to Read a file
+					// that is already in use by another process. Since all this is trying to do is
+					// calculate an MD5 hash of the file, eat the exception and return an empty string
+					// instead of a hash value. If the program is compiled in DEBUG mode, display a
+					// message to the user that includes the exception.
 #if DEBUG
 					Console.WriteLine("Sorry, unable to calculate MD5 hash for '{0}': {1}.", filename, e.Message);
 #endif
@@ -209,6 +214,14 @@ namespace DetectDuplicates {
 					string tempname = temp["\0"];
 
 					string secondHash = CalculateMd5(tempname);
+					// An empty hash here means that CalculateMd5 was unable to read the file
+					// so we need to skip the file. For some reason, the program appears to
+					// check each file 3 times. When I run the program in debug mode against
+					// my SkyDrive folder in /recursive mode it tries to read the .lock file
+					// 3 times. I haven't stepped through the entire process to see why this
+					// is happening. If it's happening for all files, that could definitely
+					// be a bit of a performance problem.
+					// todo: Figure out why, and if possible stop, it calculating the Md5 hash 3 times on some, maybe all, files.
 					if (secondHash == "") return;
 					temp.Remove("\0");
 					temp.Add(secondHash, tempname);
