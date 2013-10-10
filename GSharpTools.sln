@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLLUsage", "DLLUsage\DLLUsage.csproj", "{35D532EC-E27E-41B9-A87C-654C8573CD4B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSharpTools", "GSharpTools\GSharpTools.csproj", "{7D2D807B-9611-40F9-9B6D-72FE7BDD46AA}"
@@ -26,6 +26,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "touch", "touch\touch.csproj", "{65F27639-AF1D-4F57-93C4-3C895019A7F7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPrintTest", "GPrintTest\GPrintTest.csproj", "{A8595E2F-4099-44D0-84DE-874398630162}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8088ECC0-6458-47AC-9ACB-50C0787FD2FF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
