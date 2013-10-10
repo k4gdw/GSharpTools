@@ -19,6 +19,6 @@ Branches:
  *  `dev` - This is where I will make  any  modifications  such  as  new 
     features or bug fixes.
 
-[1]:    mailto://not@p-nand-q.com "Email Gerson Kurz"
+[1]:    mailto:not@p-nand-q.com "Email Gerson Kurz"
 [2]:    http://p-nand-q.com
 [3]:    http://bit.ly/1c3W3j5 "GTools Download"
