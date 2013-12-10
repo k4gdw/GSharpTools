@@ -6,6 +6,7 @@
 *.sln.cache
 *.suo
 *.user
+*.dll
 *resharper.user
 Sync*.dat
 [Bb]in/
